@@ -1,9 +1,6 @@
 """
-CUSB Research Analyzer Modules
+Utility functions for CUSB Research Analyzer
 """
-from .faculty_manager import FacultyManager
-from .scholar_fetcher import ScholarFetcher
-from .analytics import Analytics
-from .visualizer import Visualizer
+from .helpers import format_number, format_date, sanitize_filename
 
-__all__ = ['FacultyManager', 'ScholarFetcher', 'Analytics', 'Visualizer']
+__all__ = ['format_number', 'format_date', 'sanitize_filename']
